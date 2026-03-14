@@ -1,2 +1,2 @@
-# javascript-udemy-course
-Curso de Python da Udemy
+# javascript-react-next-nest-udemy-course
+Curso de Javascript da Udemy
