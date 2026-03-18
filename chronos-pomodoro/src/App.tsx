@@ -1,20 +1,14 @@
 import './styles/theme.css'
 import './styles/global.css'
-import { Heading } from "../components/Heading.tsx";
-import TomatoIcon from './assets/tomato.svg?react'
+import { Container } from "./components/Container.tsx";
 
 export function App() {
-  return (
-    <>
-      <Heading>
-        Hello World
-        <button>
-          <TomatoIcon/>
-        </button>
-      </Heading>
-      <p>
-        Lorem ipsum dolor sit
-      </p>
-    </>
-  )
+  return <>
+    <Container>
+      <section>Logo</section>
+    </Container>
+    <Container>
+      <section>Menu</section>
+    </Container>
+  </>
 }
