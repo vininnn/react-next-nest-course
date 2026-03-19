@@ -1,4 +1,4 @@
-import styles from './Container.module.css'
+import styles from './styles.module.css'
 import * as React from "react";
 
 type ContainerProps = {
